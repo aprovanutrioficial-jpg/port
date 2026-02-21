@@ -54,12 +54,6 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({ isOpen, onClose, cart, o
 
     // 3. Aguardar 500ms e realizar redirecionamento manual
     setTimeout(() => {
-      // Se houver apenas um item e ele tiver uma checkoutUrl específica, use-a
-      if (cart.length === 1 && cart[0].checkoutUrl) {
-        window.location.href = cart[0].checkoutUrl;
-        return;
-      }
-
       const checkoutUrl = gerarCheckoutURL(cart);
       if (checkoutUrl) {
         window.location.href = checkoutUrl;

@@ -10,7 +10,7 @@ export const gerarCheckoutURL = (carrinho: CartItem[]): string | null => {
     return null;
   }
 
-  const baseURL = "https://ism-digitalx.mycartpanda.com/checkout/";
+  const baseURL = "https://ism-digital.mycartpanda.com/checkout/";
 
   // Mapeamento de IDs internos para IDs de checkout solicitados
   const ID_MAPPING: Record<string, string> = {

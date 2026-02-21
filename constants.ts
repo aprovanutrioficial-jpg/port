@@ -217,6 +217,5 @@ Um combo pensado para quem quer acelerar a aprovação sem perder tempo com mate
     reviews: 57,
     imageUrl: 'https://i.imgur.com/8y3P1b5.png',
     category: 'Estética',
-    checkoutUrl: 'https://ism-digital.mycartpanda.com/ckt/Bo8j3g'
   }
 ];
